@@ -61,6 +61,7 @@ li:first-child {
     color:rgb(93, 0, 113)
 }
 li:last-child {
-border: 1px solid rgba(255, 0, 0, 0.12) palevioletred;
-font-weight: bold
+color: #FF00AC;
+border:1px solid rgba(255, 0, 0, 0.12);
+font-weight: bold;
 }
