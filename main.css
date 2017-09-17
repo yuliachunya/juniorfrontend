@@ -1,10 +1,66 @@
 h1{
     font-family: Tahoma;
     color: #FF69B3;
-    font-size: x-large;
+    font-size: 48px;
 }
 li {
     font-family:Georgia;
-    color:rosybrown;
-    font-size: medium;
+    color:rgba(158, 132, 238, 0.91);
+    font-size: medium
+    text-size: 24 px;
+}
+p{
+    font-family: Courier New, Courier, monospace;
+    color:darkolivegreen;
+    font-size:12 px; 
+}
+body {
+    background: url('фон.jpg') no-repeat hsla(60, 100%, 90%, 0.95) scroll ;
+}
+.class1 {
+    font-family: helvetica;
+    color: navy;
+    font-size: 18px;
+}
+.cl3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48 px;
+    margin: 5% 10% 13% 25%;
+    color: mediumturquoise;
+}
+
+.h1 {
+    font-size:40px;
+    background: rgba(247, 208, 119, 0.47);
+    color: white;
+    text-shadow: -2px -2px 0 #4D4644, 2px -2px 0 #4D4644, -2px 2px 0 #4D4644, 2px 2px 0 #4D4644, 4px 4px 0 white, 5px 5px 0 white, 6px 6px 0 white;
+    letter-spacing: 3px;}
+.table {
+        background: palegoldenrod;
+        text-align: center;
+    }
+p { font-weight:bold;
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: flex-start;
+    align-items:stretch;  
+}
+a:link {
+    color: #5C009F;
+    background-color: rgba(255, 192, 203, 0.36);}
+a:hover {
+    color:pink;
+    background-color:red;
+    border-bottom: none;
+}
+li:first-child {
+   border: 1px solid rgba(255, 0, 0, 0.12);
+   font-weight: bold;
+    color:rgb(93, 0, 113)
+}
+li:last-child {
+border: 1px solid rgba(255, 0, 0, 0.12) palevioletred;
+font-weight: bold
 }
