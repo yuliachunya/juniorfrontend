@@ -6,13 +6,13 @@ h1{
 li {
     font-family:Georgia;
     color:rgba(158, 132, 238, 0.91);
-    font-size: medium
-    text-size: 24 px;
+    font-size: medium;
+    font-size: 24 px;
 }
 p{
     font-family: Courier New, Courier, monospace;
     color:darkolivegreen;
-    font-size:12 px; 
+    font-size: 12px; 
 }
 body {
     background: url('фон.jpg') no-repeat hsla(60, 100%, 90%, 0.95) scroll ;
@@ -65,3 +65,6 @@ color: #FF00AC;
 border:1px solid rgba(255, 0, 0, 0.12);
 font-weight: bold;
 }
+.button {
+border-radius: 10px;
+box-shadow: 10px 10px 15px rgba(0, 104, 255, 0.61);}
